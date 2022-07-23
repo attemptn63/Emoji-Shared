@@ -24,10 +24,13 @@ struct EmojiView: View {
                     }
                 }
             }
-            BouncyView(emojis: selectedEmojis) { surface in
-                switch surface { case .emoji:
-                    print("Crashed into another emoji") case .wall:
-                    print("Crashed into wall")
+
+            BouncyView(emojis: selectedEmojis){ surface in
+                switch surface{
+                case .emoji:
+                    play(sound: "Sing-Sing-Singapore-Chorus.mp3")
+                case .wall:
+                    play(sound: "Sing-Sing-Singapore-Chorus.mp3")
                 }
             }
         }
