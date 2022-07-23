@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74C96AF2288B9269009E26F4 /* Sing-Sing-Singapore-Chorus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74C96AF1288B9269009E26F4 /* Sing-Sing-Singapore-Chorus.mp3 */; };
 		D9E98934288B8E2300F0A7D4 /* Emoji_SharedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98933288B8E2300F0A7D4 /* Emoji_SharedApp.swift */; };
 		D9E98936288B8E2300F0A7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98935288B8E2300F0A7D4 /* ContentView.swift */; };
 		D9E98938288B8E2500F0A7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E98937288B8E2500F0A7D4 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74C96AF1288B9269009E26F4 /* Sing-Sing-Singapore-Chorus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sing-Sing-Singapore-Chorus.mp3"; sourceTree = "<group>"; };
 		D9E98930288B8E2300F0A7D4 /* Emoji Shared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Shared.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E98933288B8E2300F0A7D4 /* Emoji_SharedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_SharedApp.swift; sourceTree = "<group>"; };
 		D9E98935288B8E2300F0A7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D9E98937288B8E2500F0A7D4 /* Assets.xcassets */,
 				D9E98939288B8E2500F0A7D4 /* Preview Content */,
 				D9E9895D288B8E4F00F0A7D4 /* EmojiSet.swift */,
+				74C96AF1288B9269009E26F4 /* Sing-Sing-Singapore-Chorus.mp3 */,
 			);
 			path = "Emoji Shared";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				D9E9893B288B8E2500F0A7D4 /* Preview Assets.xcassets in Resources */,
 				D9E98938288B8E2500F0A7D4 /* Assets.xcassets in Resources */,
+				74C96AF2288B9269009E26F4 /* Sing-Sing-Singapore-Chorus.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
