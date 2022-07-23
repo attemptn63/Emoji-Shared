@@ -18,6 +18,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Emoji Partayyy 😩🍆💦")
-        }
+        }.navigationViewStyle(.stack)
     }
 }
