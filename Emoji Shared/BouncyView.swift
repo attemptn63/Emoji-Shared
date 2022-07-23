@@ -8,22 +8,13 @@
 import Foundation
 import SwiftUI
 
-struct EmojiView: View {
-    var emojiSet: EmojiSet
-    @State var selectedEmojis: [String] = []
+struct BouncyView: UIViewRepresentable {
     
-    var body: some View {
-        VStack {
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))]) {
-                ForEach(emojiSet.emojis, id: \.self) { emoji in
-                    Button {
-                        selectedEmojis.append(emoji)
-                    } label: {
-                        Text(emoji)
-                            .font(.system(size: 100))
-                    }
-                }
-            }
-        }
+    var emoji: [String]
+    
+    var onCollide: ((CollisionSurface) -> Void)
+    
+    func makeUIView(context: Context) -> EmojiBouncyView {
+        return EmojiBouncyView(onCollide: onCollide)
     }
 }
