@@ -24,6 +24,12 @@ struct EmojiView: View {
                     }
                 }
             }
+            BouncyView(emojis: selectedEmojis) { surface in
+            switch surface { case .emoji:
+            print("Crashed into another emoji") case .wall:
+                                print("Crashed into wall")
+                            }
+            }
         }
     }
 }

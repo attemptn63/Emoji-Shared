@@ -10,11 +10,16 @@ import SwiftUI
 
 struct BouncyView: UIViewRepresentable {
     
-    var emoji: [String]
+    var emojis: [String]
     
     var onCollide: ((CollisionSurface) -> Void)
     
     func makeUIView(context: Context) -> EmojiBouncyView {
         return EmojiBouncyView(onCollide: onCollide)
+    }
+    func updateUIView(_ uiView: EmojiBouncyView, context: Context) {
+        if let last = emojis.last {
+            uiView.insert(emoji: last)
+        }
     }
 }
