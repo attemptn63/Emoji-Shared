@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+import Subsonic
 struct EmojiView: View {
     var emojiSet: EmojiSet
     @State var selectedEmojis: [String] = []
