@@ -14,6 +14,7 @@
 		D9E98945288B8E2500F0A7D4 /* Emoji_SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98944288B8E2500F0A7D4 /* Emoji_SharedTests.swift */; };
 		D9E9894F288B8E2500F0A7D4 /* Emoji_SharedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9894E288B8E2500F0A7D4 /* Emoji_SharedUITests.swift */; };
 		D9E98951288B8E2500F0A7D4 /* Emoji_SharedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98950288B8E2500F0A7D4 /* Emoji_SharedUITestsLaunchTests.swift */; };
+		D9E9895E288B8E4F00F0A7D4 /* EmojiSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9895D288B8E4F00F0A7D4 /* EmojiSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D9E9894A288B8E2500F0A7D4 /* Emoji SharedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji SharedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E9894E288B8E2500F0A7D4 /* Emoji_SharedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_SharedUITests.swift; sourceTree = "<group>"; };
 		D9E98950288B8E2500F0A7D4 /* Emoji_SharedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_SharedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9E9895D288B8E4F00F0A7D4 /* EmojiSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D9E98935288B8E2300F0A7D4 /* ContentView.swift */,
 				D9E98937288B8E2500F0A7D4 /* Assets.xcassets */,
 				D9E98939288B8E2500F0A7D4 /* Preview Content */,
+				D9E9895D288B8E4F00F0A7D4 /* EmojiSet.swift */,
 			);
 			path = "Emoji Shared";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E9895E288B8E4F00F0A7D4 /* EmojiSet.swift in Sources */,
 				D9E98936288B8E2300F0A7D4 /* ContentView.swift in Sources */,
 				D9E98934288B8E2300F0A7D4 /* Emoji_SharedApp.swift in Sources */,
 			);
