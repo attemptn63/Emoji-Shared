@@ -24,6 +24,7 @@ struct EmojiView: View {
                     }
                 }
             }
+
             BouncyView(emojis: selectedEmojis){ surface in
                 switch surface{
                 case .emoji:
