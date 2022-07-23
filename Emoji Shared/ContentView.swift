@@ -17,7 +17,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Emoji Partayyy 😩🍆💦")
-        }
+            .navigationTitle("Emoji Partayyy")
+        }.navigationViewStyle(.stack)
     }
 }
