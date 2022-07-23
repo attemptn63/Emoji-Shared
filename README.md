@@ -1,0 +1,3 @@
+# Emoji-Shared
+
+HELLO YJ SOON AND YEE JIA CHEN
