@@ -24,6 +24,14 @@ struct EmojiView: View {
                     }
                 }
             }
+            BouncyView(emojis: selectedEmojis){ surface in
+                switch surface{
+                case .emoji:
+                    play(sound: "Sing-Sing-Singapore-Chorus.mp3")
+                case .wall:
+                    play(sound: "Sing-Sing-Singapore-Chorus.mp3")
+                }
+            }
         }
     }
 }
