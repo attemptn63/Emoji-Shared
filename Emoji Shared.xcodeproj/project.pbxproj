@@ -11,6 +11,7 @@
 		4550B0DA288B915700283998 /* CollisionSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550B0D9288B915700283998 /* CollisionSurface.swift */; };
 		4550B0DE288B917200283998 /* EmojiBouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550B0DD288B917200283998 /* EmojiBouncyView.swift */; };
 		4550B0E0288B917A00283998 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550B0DF288B917A00283998 /* EmojiView.swift */; };
+		748ECD58288B9537001B8338 /* Sing-Sing-Singapore-Chorus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 748ECD57288B9537001B8338 /* Sing-Sing-Singapore-Chorus.mp3 */; };
 		D9E98934288B8E2300F0A7D4 /* Emoji_SharedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98933288B8E2300F0A7D4 /* Emoji_SharedApp.swift */; };
 		D9E98936288B8E2300F0A7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E98935288B8E2300F0A7D4 /* ContentView.swift */; };
 		D9E98938288B8E2500F0A7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E98937288B8E2500F0A7D4 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		4550B0D9288B915700283998 /* CollisionSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionSurface.swift; sourceTree = "<group>"; };
 		4550B0DD288B917200283998 /* EmojiBouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBouncyView.swift; sourceTree = "<group>"; };
 		4550B0DF288B917A00283998 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		748ECD57288B9537001B8338 /* Sing-Sing-Singapore-Chorus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sing-Sing-Singapore-Chorus.mp3"; sourceTree = "<group>"; };
 		D9E98930288B8E2300F0A7D4 /* Emoji Shared.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Shared.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E98933288B8E2300F0A7D4 /* Emoji_SharedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_SharedApp.swift; sourceTree = "<group>"; };
 		D9E98935288B8E2300F0A7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				4550B0D9288B915700283998 /* CollisionSurface.swift */,
 				4550B0DD288B917200283998 /* EmojiBouncyView.swift */,
 				4550B0DF288B917A00283998 /* EmojiView.swift */,
+				748ECD57288B9537001B8338 /* Sing-Sing-Singapore-Chorus.mp3 */,
 			);
 			path = "Emoji Shared";
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				D9E9893B288B8E2500F0A7D4 /* Preview Assets.xcassets in Resources */,
 				D9E98938288B8E2500F0A7D4 /* Assets.xcassets in Resources */,
+				748ECD58288B9537001B8338 /* Sing-Sing-Singapore-Chorus.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
