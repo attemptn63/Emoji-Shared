@@ -12,6 +12,7 @@ struct ContentView: View {
                 Text(emojiSet.name)
                     .font(.headline)
                 Text(emojiSet.emojis.joined())
+                Text("Please delete this")
                 
             }
         }
